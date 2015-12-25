@@ -1,7 +1,7 @@
 class Elves
   def initialize
     @total_area = 0
-    @present_sizes = File.read('present_sizes.txt').lines
+    @present_sizes = File.read('data/present_sizes.txt').lines
   end
 
   def call
